@@ -1,0 +1,5 @@
+text = input("Digite seu texto: ")
+new_word = input("Digite a nova palavra: ")
+old_word = input("Informe a palavra que será substituida: ")
+text = text.replace(old_word, new_word)
+print(text)
